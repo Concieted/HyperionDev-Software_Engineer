@@ -3,7 +3,7 @@
 store input into a variable called "largest_number"
  store input into a variable called "input_number"
   loop:
-  request input of a positive number from user
+  request input of a positive number from the user
    if the input is zero, exit the loop
     retrieve the "largest_number" 
      print "largest_number" 
@@ -11,31 +11,31 @@ store input into a variable called "largest_number"
 ## An algorithm that requests a user to input their name and then stores their name in a variable called first_name. Subsequently, the algorithm should print out first_name along with the phrase “Hello, World”.
 
 Store input into a variable called "first_name"
- request user to input their name
-  upon input retrieve varible called "first_name"
+ request the user to input their name
+  upon input, retrieve the variable called "first_name"
    print "first_name" along with the phrase "Hello, World"
   
 ## An algorithm that reads an arbitrary number of integers and then returns their arithmetic average.
 
 
- store arbitrary intigers in variable called "group"
+ store the arbitrary integers in a variable called "group"
   store the count of "group" in a variable called "count"
-   store the sum of "group" in variable called "sum"
-    store the aritmetic avarage of "sum" / "count" into a variable called "arithmetic_avarage"
+   store the sum of "group" in a variable called "sum"
+    store the arithmetic average of "sum" / "count" into a variable called "arithmetic_average"
      loop:
       request input of integers from the user     
-	   add the arbitrary intigers in "group"
-	   if input is finished (based on a condition) calculate the "arithmetic_avarage"
-        compute "arithmetic_avarage" as "sum" / "count"
-         print "arithmetic_avarage"
+	add the arbitrary integers in "group"
+	 if the input is finished (based on a condition), calculate the "arithmetic average"
+          compute "arithmetic_average" as "sum" / "count"
+           print "arithmetic_average"
 	   
 ## algorithm that reads a grocery list and prints out the products (in alphabetical order) that are still left to buy.
 
 get grocery list
- store grocery items in a varible called "grocery_list"
+ store grocery items in a variable called "grocery_list"
   loop:
-   allow user to mark items as purchased or needed
-    if grocery item has been marked as purcahsed from "grocery_list" remove item
+   allow the user to mark items as purchased or needed
+    if a grocery item has been marked as purchased from "grocery_list", remove the item
      update "grocery_list" in alphabetical order.
       Print "grocery_list"
 
@@ -43,7 +43,7 @@ get grocery list
 
 start - the flow chart begins
  read X, Y - which prompts the user to two values X and Y
-  performs calculatons:
+  performs calculations:
    S = X + Y (sum of X and Y)
    A = S / 2 (avarage of X and Y)
    P = X * Y (product of X and Y)
